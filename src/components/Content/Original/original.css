@@ -1,0 +1,137 @@
+.original-page-container {
+    background-color: rgb(247, 247, 248);
+    height: 430px;
+    width: 1155px;
+    float: left;
+
+    .ah-block {
+        height: 1600px;
+        width: 1155px;
+    }
+
+    .container {
+        height: 1560px;
+        width: 955px;
+        margin-top: 20px;
+        margin-left: 27.5px;
+    }
+
+    .ah-section {
+        margin-top: 20px;
+        height: 353px;
+        width: 955px;
+    }
+
+    .ah-title {
+        height: 18px;
+        width: 955px;
+        display: flex;
+        float: none;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: left;
+        text-align: start;
+        line-height: 18px;
+        color: rgb(50, 50, 50);
+        position: relative;
+    }
+
+    .both-card {
+        /* margin: 0;
+            padding: 0; */
+        height: 915px;
+        width: 1100px;
+
+        :nth-child(4n) {
+            margin-right: 0;
+        }
+
+
+    }
+
+    .both-card li {
+        list-style: none;
+        float: left;
+        height: 280px;
+        width: 260px;
+        margin-right: 20px;
+        margin-top: 20px;
+        border-radius: 4px;
+    }
+
+    .both-card a {
+        text-decoration: none;
+        color: rgb(50, 50, 50);
+    }
+
+    .both-card li img {
+        float: none;
+        height: 120px;
+        width: 260px;
+        border-radius: 4px 4px 0 0;
+        vertical-align: top;
+    }
+
+    .card-inner {
+        float: none;
+        height: 160px;
+        width: 260px;
+        padding: 17px;
+        /* padding会扩大盒子 */
+        box-sizing: border-box;
+        /* 通过box-sizing: border-box浏览器自动计算内容的宽高以保持原有的高度和宽度 */
+        vertical-align: top;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .card-info {
+        height: 13px;
+        width: 192px;
+        line-height: 13px;
+        vertical-align: top;
+    }
+
+    .card-info a {
+        text-decoration: none;
+        color: rgb(238, 104, 81);
+        height: 13px;
+        width: 48px;
+        font-size: 12px;
+    }
+
+    .card-title {
+        height: 39px;
+        width: 192px;
+    }
+
+    .card-desc {
+        height: 36px;
+        width: 192px;
+        font-size: 12px;
+        line-height: 1.5em;
+        height: 1.5em;
+        /* margin: .25 0 0; */
+        color: rgb(90, 90, 90, 0.8);
+    }
+
+    .card-avatar {
+        height: 30px;
+        width: 130px;
+    }
+
+    h3 {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.4em;
+        height: 2.8em;
+    }
+
+    ul {
+        padding-inline-start: 0px;
+
+        li {
+            list-style: none;
+        }
+    }
+
+}

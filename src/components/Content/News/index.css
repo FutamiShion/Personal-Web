@@ -1,0 +1,96 @@
+.news-page-container {
+    background-color: rgb(247, 247, 248);
+    height: 1200px;
+    width: 1155px;
+    float: left;
+
+
+    .container {
+        height: 560px;
+        width: 955px;
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+
+    .container img {
+        height: 172px;
+        width: 307px;
+    }
+
+    .both-card {
+        /* margin: 0;
+        padding: 0; */
+        height: 315px;
+        width: 955px;
+
+        :last-child {
+            margin-right: 0;
+        }
+    }
+
+    .both-card li {
+        float: left;
+        height: 315px;
+        width: 226px;
+        margin-right: 17px;
+        border-radius: 4px;
+    }
+
+    .both-card li img {
+        float: none;
+        height: 106px;
+        width: 226px;
+        border-radius: 4px 4px 0 0;
+        vertical-align: top;
+    }
+
+    .card-inner {
+        float: none;
+        height: 180px;
+        width: 226px;
+        padding: 17px;
+        /* padding会扩大盒子 */
+        box-sizing: border-box;
+        /* 通过box-sizing: border-box浏览器自动计算内容的宽高以保持原有的高度和宽度 */
+        vertical-align: top;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .card-info {
+        height: 13px;
+        width: 192px;
+        line-height: 13px;
+        vertical-align: top;
+    }
+
+    .card-info a {
+        text-decoration: none;
+        color: rgb(238, 104, 81);
+        height: 13px;
+        width: 48px;
+        font-size: 12px;
+    }
+
+    .card-title {
+        height: 39px;
+        width: 192px;
+    }
+
+    ul {
+        padding-inline-start: 0px;
+    }
+
+    li {
+        list-style: none;
+    }
+}
+
+.content {
+    height: 600px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    user-select: none;
+}

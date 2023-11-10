@@ -1,0 +1,83 @@
+.menu {
+    background-color: rgb(255, 255, 255);
+    height: 2000px;
+    width: 210px;
+    float: left;
+}
+
+.menu-box {
+    height: 704px;
+    width: 210px;
+}
+
+.menu-bar {
+    height: 41px;
+    width: 198px;
+}
+
+.menu-box :hover {
+    background-color: rgb(246, 246, 246);
+    border-radius: 5px;
+}
+
+.menu-text {
+    height: 41px;
+    width: 198px;
+    text-align: center;
+    color: rgb(0, 0, 0, 0.7);
+    font-size: 14px;
+    line-height: 41px;
+    /* 单行文字垂直居中 */
+    float: right;
+    text-decoration: none;
+}
+
+.menu-selected {
+    height: 41px;
+    width: 198px;
+    text-align: center;
+    color: rgb(0, 0, 0, 0.7);
+    font-size: 14px;
+    line-height: 41px;
+    /* 单行文字垂直居中 */
+    float: right;
+    text-decoration: none;
+    background-color: rgb(234, 236, 239);
+}
+
+.menu-icon {
+    float: left;
+    height: 27;
+    width: 38px;
+    position: relative;
+}
+
+.menu-icon img {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    top: 50%;
+    /* left: 50%; */
+    transform: translate(300%, 60%);
+}
+
+.dividing-line {
+    height: 21px;
+    width: 210px;
+    position: relative;
+}
+
+.dividing-line::before {
+    content: "";
+    display: block;
+    /* 将伪元素显示为块级元素 */
+    position: absolute;
+    left: 0;
+    width: 92%;
+    height: 1px;
+    background-color: rgb(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    top: 50%;
+    margin: 0 6px;
+}
