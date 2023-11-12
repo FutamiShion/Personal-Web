@@ -19,6 +19,7 @@ export default function App() {
     useEffect(() => {
         // 在组件加载后触发导航到'/follow'
         navigate('/follow');
+        console.log('12345');
     }, []); // 空数组表示仅在组件加载时触发
     return (
         <div style={{ backgroundColor: '' }}>
